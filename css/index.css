@@ -1,0 +1,177 @@
+.align-center
+{
+    text-align: center;
+    color: white;
+}
+
+.caption
+{
+    text-align: center;
+    font-size: .8em;
+}
+
+.preface p
+{
+    margin-bottom: 0;
+}
+
+#hdhtop
+{
+    padding-top: 14rem;
+    display: block;
+    margin: auto;
+    width: 80%;
+}
+
+.centerimg
+{
+    display: block;
+    margin: 0 auto;
+}
+
+#hdhinitper
+{
+    width: 100%;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    border: none;
+}
+
+#hdhstoryboards
+{
+    width: 90%;
+    margin-top: -2rem;
+    margin-bottom: 2rem;
+    border: none;
+}
+
+#hdhbrainstorm 
+{
+    width: 70%;
+    border: none;
+}
+
+#hdhprototype
+{
+    width: 70%;
+    margin-top: 6rem;
+    margin-bottom: 7rem;
+    border: none;
+    transform: rotate(90deg);
+}
+
+#hdhrefined
+{
+    width: 95%;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    border: none;
+}
+
+#hdhrapid
+{
+    width: 55%;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    border: none;
+}
+
+#hdhmobile 
+{
+    width: 100%;
+    margin-bottom: 2rem;
+    border: none;
+}
+
+#hdhteam 
+{
+    width: 70%;
+    margin-bottom: .5rem;
+}
+
+
+#isctop
+{
+    padding-top: 14rem;
+    display: block;
+    margin: auto;
+    width: 80%;
+}
+
+
+#iscpersonas 
+{
+    width: 80%;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    border: none;
+}
+
+#isccomp 
+{
+    width: 80%;
+    border:none;
+}
+
+.wiref 
+{
+    width: 100%;
+    border: none;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+}
+
+#iscf 
+{
+    width: 100%;
+    border: none;
+    margin-top: 2rem;
+}
+
+
+
+
+
+#spottop
+{
+    padding-top: 14rem;
+    display: block;
+    margin: auto;
+    width: 80%;
+}
+
+#spotcomp 
+{
+    border: none;
+    width: 100%;
+}
+
+#spotsketch
+{
+    border: none;
+    width: 100%;
+}
+
+#spotellis 
+{
+    border: none;
+    width: 45%;
+}
+
+#spotia
+{
+    border: none;
+    width: 35%;
+}
+
+#spotanalyze 
+{
+    border: none;
+    width: 35%;
+}
+
+#spotfinal 
+{
+    border: none;
+    width: 100%;
+}
