@@ -5,13 +5,18 @@
 .align-center
 {
     text-align: center;
-    color: white;
+    color: black;
 }
 
 .caption
 {
     text-align: center;
     font-size: .8em;
+}
+
+#res
+{
+    color: red;
 }
 
 .preface p
@@ -23,6 +28,7 @@ p
 {
     font-family: 'Source Sans Pro', serif;
 }
+
 
 #hdhtop
 {

@@ -8,6 +8,7 @@
 
 
 
+
 /* =======================================================
 *
 * 	Template Style 
@@ -20,6 +21,14 @@ body {
   line-height: 1.7;
   color: #828282;
   background: #fff;
+}
+
+.head-font
+{
+  font-family: "Didact Gothic", Arial, sans-serif;
+  font-weight: 100;
+  font-size: 35px;
+  color: black;
 }
 
 #page {
@@ -67,8 +76,7 @@ p {
 
 h1, h2, h3, h4, h5, h6, figure {
   color: black;
-  font-family: "Source Sans Pro", Arial, sans-serif;
-  font-weight: 600;
+  font-family: "Didact Gothic", Arial, sans-serif;
   margin: 0 0 20px 0;
 }
 
@@ -132,8 +140,7 @@ h1, h2, h3, h4, h5, h6, figure {
   margin: 0;
   padding: 0;
   text-transform: uppercase;
-  font-weight: bold;
-  font-weight: 300;
+  font-weight: 200;
   font-family: "Work Sans", Arial, sans-serif;
 }
 .fh5co-nav #fh5co-logo a span {
@@ -349,7 +356,8 @@ h1, h2, h3, h4, h5, h6, figure {
   top: 0;
   left: 0;
   right: 0;
-  background: #909AAC;
+  background: white;
+  border-bottom: 1px solid rgba(0, 0, 0, .05);
 }
 .fh5co-cover > .fh5co-container {
   position: relative;
@@ -366,7 +374,7 @@ h1, h2, h3, h4, h5, h6, figure {
   height: 700px;
   display: table;
   width: 100%;
-  margin-top: 100px;
+ 
 }
 @media screen and (max-width: 768px) {
   .fh5co-cover .display-t,
@@ -516,7 +524,12 @@ h1, h2, h3, h4, h5, h6, figure {
 .fh5co-cover .display-tc h2 {
   margin: 0;
   padding: 0;
-  color: white;
+  color: black;
+}
+
+h3, h4
+{
+  color: black;
 }
 #fh5co-header .display-tc h1,
 #fh5co-counter .display-tc h1,
@@ -524,7 +537,6 @@ h1, h2, h3, h4, h5, h6, figure {
   margin-bottom: 20px;
   font-size: 54px;
   line-height: 1.2;
-  text-transform: uppercase;
   font-weight: 300;
 }
 #fh5co-header .display-tc h1 strong,
