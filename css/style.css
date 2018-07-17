@@ -25,10 +25,10 @@ body {
 
 .head-font
 {
-  font-family: "Didact Gothic", Arial, sans-serif;
-  font-weight: 100;
-  font-size: 35px;
-  color: black;
+  font-family: "AGANÈ", Arial, sans-serif;
+  font-weight: bold;
+  font-size: 43px;
+  margin: 1em;
 }
 
 #page {
@@ -75,10 +75,11 @@ p {
 }
 
 h1, h2, h3, h4, h5, h6, figure {
-  color: black;
-  font-family: "Didact Gothic", Arial, sans-serif;
+  color: #79B4B6;
+  font-family: "AGANÈ", Arial, sans-serif;
   margin: 0 0 20px 0;
 }
+
 
 ::-webkit-selection {
   color: #fff;
@@ -373,13 +374,14 @@ h1, h2, h3, h4, h5, h6, figure {
   z-index: 9;
   height: 700px;
   display: table;
-  width: 100%;
- 
+  width: 80%;
+  padding-left: 10%;
 }
 @media screen and (max-width: 768px) {
   .fh5co-cover .display-t,
   .fh5co-cover .display-tc {
     height: 600px;
+    width: 100%;
   }
 }
 .fh5co-cover.fh5co-cover-sm {
@@ -675,7 +677,7 @@ h3, h4
   padding-bottom: 7em;
 }
 .project-content .col-forth {
-  width: 33%;
+  width: 50%;
   float: left;
   padding-left: 10px;
   padding-right: 10px;
