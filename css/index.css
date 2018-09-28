@@ -197,6 +197,18 @@ p
 }
 
 
+
+
+.resAssist
+{
+   
+    max-width: 100%;
+    border: none;
+    overflow: auto;
+}
+
+
+
 @media (max-width: 992px)
 {
     .about-content
