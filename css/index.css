@@ -143,7 +143,10 @@ p
     margin-top: 2rem;
 }
 
-
+#portrait
+{
+    text-align: right;
+}
 
 
 
@@ -217,7 +220,6 @@ p
     }
     #portrait 
     {
-        margin: auto;
         margin-bottom: 3rem;
     }
 }
