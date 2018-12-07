@@ -38,6 +38,14 @@ p
     width: 80%;
 }
 
+#beermentertop
+{
+    padding-top: 14rem;
+    display: block;
+    margin: auto;
+    width: 70%;
+}
+
 #resmedsign
 {
     padding-top: 3rem;
@@ -239,4 +247,14 @@ p
     {
         width: 90%;
     }
+}
+
+.width-fix
+{
+    width: 70%;
+}
+
+.width-fifty
+{
+    width: 50%;
 }
