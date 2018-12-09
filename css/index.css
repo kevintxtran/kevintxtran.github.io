@@ -159,9 +159,11 @@ p
     margin-top: 2rem;
 }
 
+
 #portrait
 {
-    text-align: right;
+    margin: 0 auto;
+    
 }
 
 
