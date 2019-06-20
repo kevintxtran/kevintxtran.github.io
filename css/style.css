@@ -712,13 +712,33 @@ h3, h4
   float: left;
   padding-left: 10px;
   padding-right: 10px;
+  margin: 0 auto;
 }
 
-@media screen and (max-width: 970px) {
-  .project-content .col-forth {
+
+  #bm-sm.project {
+    background-image: url('../images/beermenter.png')
+  }
+  #rm-sm.project{
+    background-image: url('../images/resmed.png')
+  }
+  #hdh-sm.project{
+    background-image: url('../images/hdh.png')
+  }
+  #spot-sm.project{
+    background-image: url('../images/spotify.png')
+  }
+
+@media (min-width: 1651px){
+  .project-content{
+    width: 53%;
+  }
+  .col-forth {
     width: 100%;
   }
+  
 }
+
 
 .project-content .col-forth .project:after {
   position: absolute;
