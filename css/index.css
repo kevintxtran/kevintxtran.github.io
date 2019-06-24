@@ -162,6 +162,7 @@ p
 
 #portrait
 {
+    width: 50%;
     margin: 0 auto;
     
 }
@@ -214,7 +215,10 @@ p
 
 #about
 {
-    width: 90%;
+    width: 57%;
+    padding-top: 14rem;
+    padding-left: 11px;
+    margin: 0 auto;
 }
 
 
@@ -237,6 +241,10 @@ p
     {
         width: 95%;
     }
+    #about 
+    {
+        width: 90%;
+    }
     #portrait 
     {
         margin-bottom: 3rem;
@@ -250,6 +258,8 @@ p
         width: 90%;
     }
 }
+
+
 
 .width-fix
 {
