@@ -5,6 +5,10 @@
 *
 * ======================================================= */
 
+* {
+  font-family: "Source Sans Pro", Arial, sans-serif;
+}
+
 .head-font
 {
   font-family: "Work Sans", sans-serif;
@@ -14,21 +18,18 @@
 
 .sub-font
 {
-  font-family: "Work Sans", sans-serif;
+  font-family: "Work Sans", Arial sans-serif;
   font-weight: 400;
   font-size: 30px;
 }
 
 body {
-  font-family: "Source Sans Pro", sans-serif;
   font-weight: 200;
   font-size: 16px;
   line-height: 1.7;
   color: #828282;
   background: #fff;
 }
-
-
 
 
 #page {
@@ -707,6 +708,7 @@ h3, h4
   padding-bottom: 7em;
   margin: 0 auto;
 }
+
 .project-content .col-forth {
   width: 50%;
   float: left;
@@ -729,16 +731,21 @@ h3, h4
     background-image: url('../images/spotify.png')
   }
 
-@media (min-width: 1651px){
+
+@media screen and (min-width: 1651px){
   .project-content{
     width: 53%;
   }
   .col-forth {
     width: 100%;
   }
-  
 }
 
+@media screen and (max-width: 700px){
+  .project-content .col-forth{
+    width: 100%;
+  }
+}
 
 .project-content .col-forth .project:after {
   position: absolute;
@@ -1025,15 +1032,7 @@ h3, h4
   position: relative;
 }
 #fh5co-offcanvas ul li.offcanvas-has-dropdown > a:after {
-  position: absolute;
-  right: 0px;
-  font-family: 'icomoon';
-  speak: none;
-  font-style: normal;
-  font-weight: normal;
-  font-variant: normal;
-  text-transform: none;
-  line-height: 1;
+
   /* Better Font Rendering =========== */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
