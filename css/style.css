@@ -6,7 +6,7 @@
 * ======================================================= */
 
 * {
-  font-family: "Source Sans Pro", Arial, sans-serif;
+  font-family: 'Source Sans Pro', Arial, sans-serif !important;
 }
 
 .head-font
@@ -745,6 +745,7 @@ h3, h4
   .project-content .col-forth{
     width: 100%;
   }
+  .col-forth 
 }
 
 .project-content .col-forth .project:after {
