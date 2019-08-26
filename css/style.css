@@ -715,6 +715,9 @@ h3, h4
   margin: 0 auto;
 }
 
+#nfl-sm.project {
+  background-image: url('../images/nfl.png')
+}
 
   #bm-sm.project {
     background-image: url('../images/beermenter.png')
