@@ -21,9 +21,9 @@
 }
 
 body, desc, p, li {
-  font-family: 'Source Sans Pro', sans-serif !important;
-  font-weight: 300;
-  font-size: 16px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 400;
+  font-size: 17px;
   line-height: 1.7;
   color: #454545;
   background: #fff;
@@ -1295,6 +1295,8 @@ h3, h4
   background: url(../images/loader.gif) center no-repeat #fff;
 }
 
+
+
 .js .animate-box {
   opacity: 0;
 }
@@ -1303,5 +1305,30 @@ h3, h4
 {
   font-size: 32px;
   margin-right: 12px;
-  
+}
+
+#about-img
+{
+  padding-bottom: 1.9rem;
+}
+
+.scale-img
+{
+  width: 35%;
+}
+
+}
+
+.fit-container img
+{
+  width: 50%;
+  height: auto;
+  overflow: hidden;
+}
+
+.mobile-width
+{
+  display: block;
+  margin: 0 auto;
+  width: 40%;
 }

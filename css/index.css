@@ -10,6 +10,7 @@
 
 .caption
 {
+    margin-top: 1em;
     text-align: center;
     font-size: .8em;
 }
@@ -22,6 +23,15 @@
 .preface p
 {
     margin-bottom: 0;
+}
+
+.entry-img
+{
+    padding-top: 14rem;
+    padding-bottom: 4rem;
+    display: block;
+    margin: auto;
+    width: 20%;
 }
 
 
@@ -37,9 +47,28 @@
 #beermentertop
 {
     padding-top: 14rem;
+    padding-bottom: 4rem;
     display: block;
     margin: auto;
-    width: 70%;
+    width: 20%;
+    height: auto;
+}
+
+#nfl-top
+{
+    padding-top: 14rem;
+    padding-bottom: 4rem;
+    display: block;
+    margin: auto;
+    width: 20%;
+    height: auto;
+}
+
+@media screen and (max-width: 700px)
+{
+    #nfl-top {
+        width: 60%;
+    }
 }
 
 #resmedsign
@@ -54,6 +83,7 @@
 {
     display: block;
     margin: 0 auto;
+    min-width: 67%;
 }
 
 #hdhinitper
@@ -211,7 +241,7 @@
 
 #about
 {
-    width: 57%;
+    width: 100%;
     padding-top: 14rem;
     padding-left: 11px;
     margin: 0 auto;
@@ -261,5 +291,7 @@
 
 .width-fifty
 {
-    width: 50%;
+    margin-bottom: 2em;
+    min-width: 47%;
+    max-width: 47%;
 }
