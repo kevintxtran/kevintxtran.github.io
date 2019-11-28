@@ -9,7 +9,7 @@
 .head-font
 {
   font-family: "Work Sans", sans-serif;
-  font-weight: bold;
+  font-weight: light;
   font-size: 60px;
 }
 
@@ -18,6 +18,7 @@
   font-family: "Work Sans", Arial sans-serif;
   font-weight: 400;
   font-size: 30px;
+  
 }
 
 body, desc, p, li {
@@ -343,20 +344,7 @@ h1, h2, h3, h4, h5, h6, figure {
   box-shadow: 0px 14px 30px -15px rgba(0, 0, 0, 0.75) !important;
 }
 
-.fh5co-video .overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: rgba(0, 0, 0, 0.5);
-  -webkit-transition: 0.5s;
-  -o-transition: 0.5s;
-  transition: 0.5s;
-}
-.fh5co-video:hover .overlay {
-  background: rgba(0, 0, 0, 0.7);
-}
+
 .fh5co-video:hover a {
   -webkit-transform: scale(1.2);
   -moz-transform: scale(1.2);
@@ -381,6 +369,7 @@ h1, h2, h3, h4, h5, h6, figure {
   top: 0;
   left: 0;
   right: 0;
+
 }
 .fh5co-cover > .fh5co-container {
   position: relative;
