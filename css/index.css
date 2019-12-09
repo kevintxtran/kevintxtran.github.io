@@ -88,7 +88,7 @@
 
 #hdhinitper
 {
-    width: 100%;
+    width: 80%;
     margin-top: 2rem;
     margin-bottom: 1rem;
     border: none;
@@ -96,7 +96,7 @@
 
 #hdhstoryboards
 {
-    width: 90%;
+    width: 70%;
     margin-top: -2rem;
     margin-bottom: 2rem;
     border: none;
@@ -104,17 +104,17 @@
 
 #hdhbrainstorm 
 {
-    width: 70%;
+   
     border: none;
 }
 
+
 #hdhprototype
-{
-    width: 70%;
-    margin-top: 6rem;
-    margin-bottom: 7rem;
+{   
+    
+   
     border: none;
-    transform: rotate(90deg);
+    
 }
 
 #hdhrefined
@@ -138,6 +138,16 @@
     width: 100%;
     margin-bottom: 2rem;
     border: none;
+}
+
+.hdh-rd
+{
+    width: 60%;
+    margin-bottom: 2rem;
+}
+#hdh-wires
+{
+    width: 100%;
 }
 
 #hdhteam 
