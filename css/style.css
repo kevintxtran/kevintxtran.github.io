@@ -36,7 +36,6 @@ body, p, li {
   letter-spacing: .2px;
 }
 
-H
 
 #page {
   
@@ -85,8 +84,13 @@ p {
 
 h1, h2, h3, h4, h5, h6, figure {
   color: black;
-  margin: 0 0 20px 0;
+  margin: 0 0 10px 0;
   letter-spacing: .03em;
+}
+
+.proj-name 
+{
+  margin: 0 0 20px 0;
 }
 
 
@@ -145,8 +149,8 @@ h1, h2, h3, h4, h5, h6, figure {
   font-size: 14px;
 } */
 .fh5co-nav #fh5co-logo {
-  font-family: "Mukta", Arial, sans-serif;
-  font-size: 24px;
+  font-family: "Cabin", Arial, sans-serif;
+  font-size: 20px;
   margin: 0;
   padding: 0;
   text-transform: uppercase;
@@ -169,6 +173,7 @@ h1, h2, h3, h4, h5, h6, figure {
 .fh5co-nav a {
   padding: 5px 10px;
   color: black;
+  
 }
 
 
@@ -183,10 +188,10 @@ h1, h2, h3, h4, h5, h6, figure {
   display: inline;
 }
 .fh5co-nav ul li a {
-  font-family: "Mukta", sans-serif;
-  font-size: 15px;
+  font-family: "Cabin", sans-serif;
+  font-size: 17px;
   padding: 30px 30px;
-  
+  font-weight: 300;
   color: black;
   letter-spacing: 1px;
   -webkit-transition: 0.5s;
@@ -1205,4 +1210,9 @@ figcaption
 .project > .desc > h3
 {
   letter-spacing: .7px;
+}
+
+.proj-title
+{
+  margin-bottom: 0.35em;
 }

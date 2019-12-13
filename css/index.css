@@ -39,6 +39,7 @@
 #hdhtop
 {
     padding-top: 14rem;
+    padding-bottom: 3rem;
     display: block;
     margin: auto;
     width: 80%;
@@ -46,30 +47,23 @@
 
 #beermentertop
 {
-    padding-top: 14rem;
+    padding-top: 4rem;
     padding-bottom: 4rem;
     display: block;
     margin: auto;
-    width: 20%;
-    height: auto;
+    width: 100%;
 }
 
 #nfl-top
 {
-    padding-top: 14rem;
+    
     padding-bottom: 4rem;
     display: block;
     margin: auto;
-    width: 20%;
-    height: auto;
+    width: 100%;
+    
 }
 
-@media screen and (max-width: 700px)
-{
-    #nfl-top {
-        width: 60%;
-    }
-}
 
 #resmedsign
 {
@@ -208,9 +202,10 @@
 #spottop
 {
     padding-top: 14rem;
+    padding-bottom: 4rem;
     display: block;
     margin: auto;
-    width: 80%;
+    width: 100%;
 }
 
 #spotcomp 
@@ -289,6 +284,7 @@
     #hdhtop 
     {
         width: 90%;
+        padding-bottom: 3em;
     }
 }
 
