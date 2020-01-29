@@ -1220,3 +1220,9 @@ figcaption
 #test12{
   height: 100% !important;
 }
+
+.index-hl
+{
+  display: inline-block;
+  font-size: 70%;
+}
