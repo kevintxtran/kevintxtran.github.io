@@ -13,17 +13,18 @@
   /* font-family: "Work Sans", sans-serif; */
   font-family: 'Cabin', sans-serif;
   font-weight: 900;
-  font-size: 80px;
+  font-size: 4em;
+  letter-spacing: 3.7px;
 }
 
 .sub-font
 {
   font-family: "Cabin", Arial, sans-serif;
   font-weight: 300;
-  font-size: 20px !important;
+  font-size: 1.2em !important;
   width: 80%;
   letter-spacing: .8px;
-  line-height: 1.2em !important;
+  line-height: 1.3em !important;
 }
 
 body, p, li {
@@ -34,6 +35,11 @@ body, p, li {
   color: #454545;
   background: #fff;
   letter-spacing: .4px;
+}
+
+ul, li 
+{
+  letter-spacing: .8px;
 }
 
 
@@ -335,7 +341,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 .fh5co-cover {
-  height: 550px;
+  height: 490px;
   background-size: cover;
   background-position: top center;
   background-repeat: no-repeat;
@@ -361,6 +367,13 @@ h1, h2, h3, h4, h5, h6, figure {
     height: 600px;
   }
 }
+
+@media screen and (max-width: 1000px) {
+  .sub-font {
+    width: 100%;
+  }
+}
+
 .fh5co-cover .display-t,
 .fh5co-cover .display-tc {
   z-index: 9;
@@ -368,7 +381,7 @@ h1, h2, h3, h4, h5, h6, figure {
   display: table;
   width: 80%;
   padding-left: 2%;
-  padding-top: 2em;
+  
 }
 @media screen and (max-width: 768px) {
   .fh5co-cover .display-t,
@@ -386,6 +399,7 @@ h1, h2, h3, h4, h5, h6, figure {
 @media screen and (max-width: 768px) {
   .fh5co-cover.fh5co-cover-sm {
     height: 400px;
+    
   }
 }
 .fh5co-cover.fh5co-cover-sm .display-t,
@@ -1226,3 +1240,29 @@ figcaption
   display: inline-block;
   font-size: 70%;
 }
+
+#menuz {
+  padding-left: 0;
+}
+
+#menuz li {
+  display: inline;
+  padding-right: 3.5em;
+  font-size: .92em;
+  
+}
+
+
+@media screen and (max-width: 620px) {
+  #menuz li{
+    width: 100%;
+    padding-right: 2em;
+  }
+}
+
+@media screen and (max-width: 510px) {
+  #menuz li{
+    width: 100%;
+    padding-right: .3em;
+  }
+} 
