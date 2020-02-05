@@ -89,6 +89,11 @@
     min-width: 67%;
 }
 
+.center-default 
+{
+    display: block;
+    margin: 0 auto;
+}
 #hdhinitper
 {
     width: 80%;
