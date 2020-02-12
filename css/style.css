@@ -1136,7 +1136,16 @@ h3, h4
 
 .scale-img
 {
+  display: block;
+  margin: 0 auto;
   width: 50%;
+}
+
+.fill-container
+{
+  display: block;
+  margin: 0 auto;
+  width: 100%;
 }
 
 }
