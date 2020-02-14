@@ -35,7 +35,6 @@ body, p, li {
   font-size: 17px;
   line-height: 1.8;
   color: #454545;
-  background: #fff;
   letter-spacing: .52px;
 }
 
@@ -46,7 +45,6 @@ ul, li
 
 
 #page {
-  
   position: relative;
   overflow-x: hidden;
   width: 100%;
@@ -129,7 +127,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 .fh5co-nav .top-menu {
   background-color: white;
-  padding: 28px 0;
+  padding: 15px 0;
 }
 /* .fh5co-nav .top {
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
@@ -307,7 +305,7 @@ h1, h2, h3, h4, h5, h6, figure {
 #fh5co-header,
 #fh5co-counter,
 .fh5co-bg {
- 
+
   background-size: cover;
   background-position: top center;
   background-repeat: no-repeat;
@@ -356,7 +354,7 @@ h1, h2, h3, h4, h5, h6, figure {
   position: relative;
   float: left;
   width: 100%;
-  background-color: #A18F8D;
+  background-color: #A18F8D !important;
 }
 .fh5co-cover .overlay {
   z-index: 0;
@@ -1310,3 +1308,10 @@ figcaption
     padding-right: .4em;
   }
 } 
+
+.desc.about-b{
+  margin-top: 10px;
+  padding: 22px;
+  background-color: #ffffff;
+}
+
