@@ -659,13 +659,13 @@ h3, h4
 
 #proj-bg
 {
-  padding-top: 11em;
+  padding-top: 10em;
   background-color: #E3E3E3;
 } 
 
-@media screen and (max-width: 768px){
-.project-content{
-  padding-top: 1000px;
+@media screen and (max-width: 400px){
+#proj-bg{
+  padding-top: 15em;
 }
 }
 
