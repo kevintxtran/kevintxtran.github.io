@@ -23,7 +23,7 @@
 {
   font-family: "Cabin", Arial, sans-serif;
   font-weight: 300;
-  font-size: 1.1em !important;
+  font-size: 1.06em !important;
   width: 90%;
   letter-spacing: .8px;
   line-height: 1.3em !important;
@@ -658,7 +658,7 @@ h3, h4
 #proj-bg
 {
   padding-top: 10em;
-  background-color: #E3E3E3;
+  background-color: #FFFFFF;
 } 
 
 @media screen and (max-width: 400px){
