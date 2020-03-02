@@ -306,6 +306,8 @@
 
 .width-fix
 {
+    display: block;
+    margin: 0 auto;
     width: 70%;
 }
 

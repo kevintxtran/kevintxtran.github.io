@@ -354,7 +354,7 @@ h1, h2, h3, h4, h5, h6, figure {
   position: relative;
   float: left;
   width: 100%;
-  background-color: #A18F8D !important;
+  background-color: #878995 !important;
 }
 .fh5co-cover .overlay {
   z-index: 0;
@@ -743,6 +743,10 @@ h3, h4
   padding-left: 10px;
   padding-right: 10px;
   margin: 0 auto;
+}
+
+#tn-sm.project{
+  background-image: url('../images/truenutrition.png')
 }
 
 #nfl-sm.project {
@@ -1179,7 +1183,6 @@ h3, h4
   width: 100%;
 }
 
-}
 
 .fit-container img
 {
