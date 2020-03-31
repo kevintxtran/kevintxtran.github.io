@@ -358,7 +358,7 @@ h1, h2, h3, h4, h5, h6, figure {
   position: relative;
   float: left;
   width: 100%;
-  background-color: #878995 !important;
+  background-color: #DDDEE3 !important;
 }
 .fh5co-cover .overlay {
   z-index: 0;
@@ -617,7 +617,7 @@ h3, h4
   -webkit-transition: 0.4s;
   -o-transition: 0.4s;
   transition: 0.4s;
-  border: 6px #EFF6EE solid;
+  /* border: 6px #EFF6EE solid; */
   /* box-shadow: -1.2em -1.2em 0 0px #454545; */
 }
 
@@ -636,7 +636,7 @@ h3, h4
   -webkit-transition: 0.4s;
   -o-transition: 0.4s;
   transition: 0.4s;
-  border: 6px #EFF6EE solid;
+  /* border: 6px #EFF6EE solid; */
   /* box-shadow: 1.2em 1.2em 0 0px #454545; */
 }
 
