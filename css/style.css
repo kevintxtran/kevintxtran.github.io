@@ -1262,7 +1262,8 @@ figcaption
 
 .colors
 {
-  background-image: linear-gradient(to right, #ffffff 0%, #f5f5f5 50%, #ebebeb 90%) !important; 
+  /* background-image: linear-gradient(to right, #ffffff 0%, #f5f5f5 50%, #ebebeb 90%) !important;  */
+  background-color: #f8f8f8 !important;
  
 }
 
