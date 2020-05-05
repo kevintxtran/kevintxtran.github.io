@@ -32,7 +32,7 @@
 body, p, li {
   font-family: 'Cabin', sans-serif !important;
   font-weight: 200 !important;
-  font-size: 17px;
+  font-size: 16px;
   line-height: 1.8;
   color: #454545;
   letter-spacing: .52px;
@@ -94,6 +94,11 @@ h1, h2, h3, h4, h5, h6, figure {
   letter-spacing: .03em;
 }
 
+
+h3 {
+ font-size: 40px;
+}
+
 .proj-name 
 {
   margin: 0 0 20px 0;
@@ -103,17 +108,17 @@ h1, h2, h3, h4, h5, h6, figure {
 
 ::-webkit-selection {
   color: #fff;
-  background: #636A76;
+  background: #C8D3D5;
 }
 
 ::-moz-selection {
   color: #fff;
-  background: #636A76;
+  background: #C8D3D5;
 }
 
 ::selection {
-  color: #fff;
-  background: #636A76;
+  color: black;
+  background: #C8D3D5;
 }
 
 .fh5co-nav {
@@ -358,7 +363,7 @@ h1, h2, h3, h4, h5, h6, figure {
   position: relative;
   float: left;
   width: 100%;
-  background-color: #C8D3D5!important;
+  background-color: #DBE4E6!important;
 }
 .fh5co-cover .overlay {
   z-index: 0;
@@ -1279,6 +1284,7 @@ figcaption
 
 .proj-title
 {
+  font-size: 50px;
   margin-bottom: 0.35em;
 }
 
