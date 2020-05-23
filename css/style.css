@@ -29,6 +29,8 @@
   line-height: 1.3em !important;
 }
 
+
+
 body, p, li {
   font-family: 'Cabin', sans-serif !important;
   font-weight: 200 !important;
@@ -101,8 +103,9 @@ h3 {
 
 .proj-name 
 {
-  margin: 0 0 20px 0;
+  font-size: 30px;
   color: #454545;
+  font-weight: 600;
 }
 
 
@@ -626,6 +629,16 @@ h3, h4
   /* box-shadow: -1.2em -1.2em 0 0px #454545; */
 }
 
+
+/* .port-overlay-cont::after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  transition: all .3s cubic-bezier(.3,.1,.58,1);
+  height: 100%;
+} */
+
 .project-content .col-forth .project.s-right{
   background-size: cover;
   background-position: top center;
@@ -754,6 +767,7 @@ h3, h4
   margin: 0 auto;
 }
 
+
 #tn-sm.project{
   background-image: url('../images/truenutrition.png')
 }
@@ -795,6 +809,22 @@ h3, h4
   }
 }
 
+.project .port-overlay-cont {
+  width: 100%;
+  padding: 150px 40px;
+  visibility: hidden;
+  transition: visibility 0s, opacity 0.5s linear;
+}
+
+.project .port-overlay-cont h4{
+  font-style: bold !important;
+}
+
+.project:hover .port-overlay-cont {
+  visibility: visible;
+  opacity: 1;
+}
+
 .project-content .col-forth .project:after {
   position: absolute;
   top: 0;
@@ -803,23 +833,25 @@ h3, h4
   right: 0;
   content: '';
   z-index: -2;
-  background: rgba(0, 0, 0, 0.6);
+  background: rgba(243, 243, 243, .94);
   opacity: 0;
-  -webkit-transition: 0.5s;
-  -o-transition: 0.5s;
-  transition: 0.5s;
+  -webkit-transition: 0.2s;
+  -o-transition: 0.2s;
+  transition: 0.2s;
 }
 
 .project-content .col-forth .project:hover, .project-content .col-forth .project:focus {
-  -webkit-box-shadow: 0px 1px 20px 0px rgba(0, 0, 0, 0.19);
-  -moz-box-shadow: 0px 1px 20px 0px rgba(0, 0, 0, 0.19);
-  -ms-box-shadow: 0px 1px 20px 0px rgba(0, 0, 0, 0.19);
-  -o-box-shadow: 0px 1px 20px 0px rgba(0, 0, 0, 0.19);
-  box-shadow: 0px 1px 20px 0px rgba(0, 0, 0, 0.19);
+  -webkit-box-shadow: 0px 1px 20px 0px rgba(0, 0, 0, 0.07);
+  -moz-box-shadow: 0px 1px 20px 0px rgba(0, 0, 0, 0.07);
+  -ms-box-shadow: 0px 1px 20px 0px rgba(0, 0, 0, 0.07);
+  -o-box-shadow: 0px 1px 20px 0px rgba(0, 0, 0, 0.07);
+  box-shadow: 0px 1px 20px 0px rgba(0, 0, 0, 0.07);
+
 }
 
 .project-content .col-forth .project:hover:after, .project-content .col-forth .project:focus:after {
   opacity: 1;
+
 }
 .project-content .col-forth .project:hover .desc, .project-content .col-forth .project:focus .desc {
   bottom: 0;
@@ -827,15 +859,18 @@ h3, h4
   -o-transition: 0.2s;
   transition: 0.2s;
 }
+.project-content .col-forth .project {
+  height: 360px;
+  width: 100%;
+}
+
 @media screen and (max-width: 480px) {
   .project-content .col-forth .project {
     height: 340px !important;
     margin-bottom: 20px;
   }
 }
-.project-content .col-forth .project {
-  height: 400px;
-}
+
 .project-content .desc {
   background: white;
   padding: 10px 20px;
