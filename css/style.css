@@ -366,7 +366,7 @@ h3 {
   position: relative;
   float: left;
   width: 100%;
-  background-color: #DBE4E6!important;
+  background-color: #FFFFFF!important;
 }
 .fh5co-cover .overlay {
   z-index: 0;
@@ -389,7 +389,7 @@ h3 {
 }
 
 .display-tc{
-  border: 3px #454545 solid;
+  border: 5px #F4F4F4 double;
 }
 
 .fh5co-cover .display-t,
@@ -680,12 +680,12 @@ h3, h4
 #proj-bg
 {
   padding-top: 10em;
-  background-color: #FFFFFF;
+  background-color: #F4F4F4;
 } 
 
-@media screen and (max-width: 400px){
+@media screen and (max-width: 768px){
 #proj-bg{
-  padding-top: 15em;
+  padding-top: 7em;
 }
 }
 
