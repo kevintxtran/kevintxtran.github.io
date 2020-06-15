@@ -13,9 +13,9 @@
   /* font-family: "Work Sans", sans-serif; */
   font-family: 'Cabin', sans-serif;
   font-weight: 600;
-  font-size: 3.3em;
+  font-size: 3.7em;
   color: #2D2D2D;
-  letter-spacing: 3.5px;
+  letter-spacing: 3.6px;
   padding-bottom: .1em;
 }
 
@@ -23,7 +23,7 @@
 {
   font-family: "Cabin", Arial, sans-serif;
   font-weight: 300;
-  font-size: 1.07em !important;
+  font-size: 1.35em !important;
   width: 88%;
   letter-spacing: .8px;
   line-height: 1.3em !important;
@@ -398,7 +398,7 @@ h3 {
   margin: 0 auto;
   z-index: 9;
   display: table;
-  width: 75%;
+  width: 100%;
   padding: 3em;
   /* background-color: #FCEABC; */
 }
@@ -833,7 +833,7 @@ h3, h4
   right: 0;
   content: '';
   z-index: -2;
-  background: rgba(243, 243, 243, .94);
+  background: rgb(255, 255, 255, .94);
   opacity: 0;
   -webkit-transition: 0.2s;
   -o-transition: 0.2s;
@@ -1340,7 +1340,7 @@ figcaption
 #menuz li { 
   display: inline;
   padding-right: 5em;
-  font-size: .87em;
+  font-size: 1.0em;
 }
 
 
