@@ -19,6 +19,15 @@
 }
 
 @font-face {
+  font-family: 'basier_circlemedium';
+  src: url('../fonts/basier-circle-medium-webfont.woff2') format('woff2'),
+       url('../fonts/basier-circle-medium-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
   font-family: 'basier_circleregular';
   src: url('../fonts/basiercircle-regular-webfont.woff2') format('woff2'),
        url('../fonts/basiercircle-regular-webfont.woff') format('woff');
@@ -52,7 +61,6 @@
 {
   
   font-family: 'basier_circlebold', sans-serif !important;
-  font-weight: 600;
   font-size: 3.7em;
   color: #2D2D2D;
   letter-spacing: 3.6px;
