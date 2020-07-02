@@ -8,10 +8,50 @@
   -webkit-font-smoothing: antialiased;
 
 }
+
+@font-face {
+  font-family: 'basier_circlebold';
+  src: url('../fonts/basier-circle-bold-webfont.woff2') format('woff2'),
+       url('../fonts/basier-circle-bold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'basier_circleregular';
+  src: url('../fonts/basiercircle-regular-webfont.woff2') format('woff2'),
+       url('../fonts/basiercircle-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+
+@font-face {
+  font-family: 'basier_squarebold';
+  src: url('../fonts/basiersquare-bold-webfont.woff2') format('woff2'),
+       url('../fonts/basiersquare-bold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'basier_squareregular';
+  src: url('../fonts/basiersquare-regular-webfont.woff2') format('woff2'),
+       url('../fonts/basiersquare-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+  
+  
+
 .head-font
 {
-  /* font-family: "Work Sans", sans-serif; */
-  font-family: 'Cabin', sans-serif;
+  
+  font-family: 'basier_circlebold', sans-serif !important;
   font-weight: 600;
   font-size: 3.7em;
   color: #2D2D2D;
@@ -21,28 +61,28 @@
 
 .sub-font
 {
-  font-family: "Cabin", Arial, sans-serif;
+  font-family: "basier_circleregular", sans-serif;
   font-weight: 300;
   font-size: 1.35em !important;
   width: 88%;
-  letter-spacing: .8px;
+  letter-spacing: .1px;
   line-height: 1.3em !important;
 }
 
 
 
 body, p, li {
-  font-family: 'Cabin', sans-serif !important;
+  font-family: 'basier_circleregular', sans-serif !important;
   font-weight: 200 !important;
   font-size: 16px;
   line-height: 1.8;
   color: #454545;
-  letter-spacing: .52px;
+  letter-spacing: .32px;
 }
 
 ul, li 
 {
-  letter-spacing: .8px;
+  letter-spacing: .32px;
 }
 
 
@@ -93,7 +133,6 @@ p {
 h1, h2, h3, h4, h5, h6, figure {
   color: black;
   margin: 0 0 10px 0;
-  letter-spacing: .03em;
 }
 
 
@@ -164,12 +203,11 @@ h3 {
   font-size: 14px;
 } */
 .fh5co-nav #fh5co-logo {
-  font-family: "Cabin", Arial, sans-serif;
+  font-family: "basier_circlebold", Arial, sans-serif;
   font-size: 20px;
   margin: 0;
   padding: 0;
-  font-weight: 300;
-  letter-spacing: 1px;
+  letter-spacing: .2px;
  
 }
 
@@ -207,7 +245,7 @@ h3 {
   color: #454545;
 }
 .fh5co-nav ul li a {
-  font-family: "Cabin", sans-serif;
+  font-family: "basier_circleregular", sans-serif;
   font-size: .70em;
   padding: 30px 30px;
   font-weight: 600;
