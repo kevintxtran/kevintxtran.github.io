@@ -825,6 +825,9 @@ h3, h4
   #bm-sm.project {
     background-image: url('../images/beermenter2.png')
   }
+  #library-sm.project {
+    background-image: url('../images/library.png')
+  }
   #rm-sm.project{
     background-image: url('../images/resmed.png')
   }
