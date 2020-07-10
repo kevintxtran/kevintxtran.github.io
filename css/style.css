@@ -813,7 +813,13 @@ h3, h4
   margin: 0 auto;
 }
 
+
+.beg-nav{
+  float: left;
+  text-align: left;
+}
 .end-nav{
+  float: right;
   text-align: right;
 }
 
