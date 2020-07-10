@@ -813,6 +813,9 @@ h3, h4
   margin: 0 auto;
 }
 
+.end-nav{
+  text-align: right;
+}
 
 #tn-sm.project{
   background-image: url('../images/truenutrition.png')
