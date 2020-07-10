@@ -805,6 +805,10 @@ h3, h4
   margin: 0 auto;
 }
 
+.colours{
+  background-color: rgb(252, 252, 252);
+}
+
 .project-content .col-forth {
   width: 50%;
   float: left;
@@ -815,10 +819,16 @@ h3, h4
 
 
 .beg-nav{
+  border: solid 1px;
+  border-radius: 10px;
+  padding: 5px 10px;
   float: left;
   text-align: left;
 }
 .end-nav{
+  border: solid 1px;
+  border-radius: 10px;
+  padding: 5px 10px;
   float: right;
   text-align: right;
 }
