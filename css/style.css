@@ -62,7 +62,7 @@
   
   font-family: 'basier_circlebold', sans-serif !important;
   font-size: 3.7em;
-  color: #2D2D2D;
+  color: #454545;
   letter-spacing: 1.3px;
   padding-bottom: .1em;
 }
@@ -75,6 +75,7 @@
   width: 88%;
   letter-spacing: .1px;
   line-height: 1.3em !important;
+  color: #454545 !important;
 }
 
 
@@ -85,7 +86,7 @@ body, p, li {
   font-size: 16px;
   line-height: 1.8;
   color: #454545;
-  letter-spacing: .12px;
+  letter-spacing: .08px;
 }
 
 ul, li 
@@ -102,7 +103,7 @@ ul, li
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s; 
-  background-color: #f5f5f5 !important;
+  background-color: #fcfcfc !important;
 }
 .offcanvas #page {
   overflow: hidden;
@@ -123,7 +124,7 @@ ul, li
 }
 
 a {
-  color: black;
+  color: #454545;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
@@ -139,17 +140,21 @@ p {
 }
 
 h1, h2, h3, h4, h5, h6, figure {
-  color: black;
+  color: #454545;
   margin: 0 0 10px 0;
 }
 
 
+
+
 h3 {
- font-size: 40px;
+ font-weight: bold;
+ font-size: 38px;
 }
 
 h4 {
   font-size: 22px;
+  font-weight: bold;
 }
 
 .proj-name 
@@ -185,7 +190,7 @@ h4 {
   z-index: 1001;
 }
 .fh5co-nav .top-menu {
-  background-color: #F5f5f5;
+  background-color: #fcfcfc;
   padding: 15px 0;
 }
 
@@ -1386,7 +1391,8 @@ figcaption
 
 .proj-title
 {
-  font-size: 50px;
+  font-weight: bold;
+  font-size: 48px;
   margin-bottom: 0.35em;
 }
 
@@ -1428,7 +1434,7 @@ figcaption
 .desc.about-b{
   margin-top: 10px;
   padding: 22px;
-  background-color: #ffffff;
+  background-color: #fcfcfc;
 }
 
 #menu-1
