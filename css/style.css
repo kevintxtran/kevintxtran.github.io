@@ -1285,6 +1285,13 @@ h4 {
   padding-bottom: 1.9rem;
 }
 
+.small-scale
+{
+  display: block;
+  margin: 0 auto;
+  width: 38%;
+}
+
 .scale-img
 {
   display: block;
