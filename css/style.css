@@ -815,6 +815,16 @@ h4 {
 }
 
 
+.back-btn
+{
+  border: solid 1px;
+  border-radius: 10px;
+  padding: 5px 15px;
+  float: left;
+  text-align: left;
+
+}
+
 .beg-nav{
   border: solid 1px;
   border-radius: 10px;
@@ -832,9 +842,12 @@ h4 {
 }
 
 .p-btn{
+  text-align: center;
+  color: white;
   border: solid 1px;
-  border-radius: 10px;
-  padding: 5px 15px;
+  border-radius: 12px;
+  padding: 10px 17px;
+  background-color: #434343;
 }
 
 #tn-sm.project{
