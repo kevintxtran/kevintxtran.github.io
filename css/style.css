@@ -844,10 +844,9 @@ h4 {
 .p-btn{
   text-align: center;
   color: white;
-  border: solid 1px;
-  border-radius: 12px;
+  border-radius: 15px;
   padding: 10px 17px;
-  background-color: #434343;
+  background-color: #DA3C3C;
 }
 
 #tn-sm.project{
@@ -1310,6 +1309,13 @@ h4 {
   display: block;
   margin: 0 auto;
   width: 50%;
+}
+
+.scale-med
+{
+  display: block;
+  margin: 0 auto;
+  width: 70%;
 }
 
 .fill-container
