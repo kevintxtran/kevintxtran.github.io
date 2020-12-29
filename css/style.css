@@ -444,7 +444,7 @@ h4 {
 }
 
 .display-tc{
-  border: 5px #F4F4F4 double;
+  border: 8px #F5F5F5 double;
 }
 
 .fh5co-cover .display-t,
@@ -714,7 +714,7 @@ h4 {
 #proj-bg
 {
   padding-top: 15.5em;
-  background-color: #BBC5AA;
+  background-color: #526957;
 } 
 
 @media screen and (max-width: 768px){
