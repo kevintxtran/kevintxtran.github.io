@@ -61,7 +61,7 @@
 {
   
   font-family: 'basier_circlebold', sans-serif !important;
-  font-size: 3.7em;
+  font-size: 3.4em;
   color: #454545;
   letter-spacing: 1.3px;
   padding-bottom: .1em;
@@ -73,7 +73,6 @@
   font-weight: 300;
   font-size: 1.35em !important;
   width: 88%;
-  letter-spacing: .1px;
   line-height: 1.3em !important;
   color: #454545 !important;
 }
@@ -268,7 +267,7 @@ h4 {
   padding: 30px 30px;
   font-weight: 600;
   color: #454545;
-  letter-spacing: 1px;
+  letter-spacing: .02px;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
@@ -714,8 +713,8 @@ h4 {
 
 #proj-bg
 {
-  padding-top: 10em;
-  background-color: #F5F5F5;
+  padding-top: 15.5em;
+  background-color: #BBC5AA;
 } 
 
 @media screen and (max-width: 768px){
